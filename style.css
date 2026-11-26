@@ -1,0 +1,87 @@
+
+/* Forca */
+.forca {
+    position: relative;
+    width: 230px;
+    height: 300px;
+    border-left: 6px solid black;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+    box-sizing: border-box;
+}
+
+/* Cabeça */
+.cabeca {
+    width: 48px;
+    height: 48px;
+    border: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    right: 18px;
+    display: none;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+.corpo {
+    width: 4px;
+    height: 75px;
+    background: black;
+    position: absolute;
+    top: 91px;
+    right: 40px;
+    display: none;
+}
+
+/* Braço esquerdo */
+.braco-esquerdo {
+    width: 48px;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 120px;
+    right: 39px;
+    transform: rotate(30deg);
+    transform-origin: right center;
+    display: none;
+}
+
+/* Braço direito */
+.braco-direito {
+    width: 48px;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 120px;
+    right: -5px;
+    transform: rotate(-30deg);
+    transform-origin: left center;
+    display: none;
+}
+
+/* Perna esquerda */
+.perna-esquerda {
+    width: 48px;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 163px;
+    right: 39px;
+    transform: rotate(250deg);
+    transform-origin: right center;
+    display: none;
+}
+
+/* Perna direita */
+.perna-direita {
+    width: 48px;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 163px;
+    right: -5px;
+    transform: rotate(-250deg);
+    transform-origin: left center;
+    display: none;
+}
